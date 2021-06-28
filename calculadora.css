@@ -1,0 +1,40 @@
+
+.fundo {
+    height: 100vh;
+    background-image: url(https://i.imgur.com/WncciEc.jpg);
+    color:white;
+    font-family: monospace;
+}
+.calculadora {
+    position: absolute;
+    background-color: rgba(252, 252, 252, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 15px;
+    color:white;
+}
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+    margin: 2px;
+    cursor: pointer;
+    background-color: white(31, 31,31);
+    border: none;
+    color:orange;
+}
+button:hover {
+    background-color:cornsilk;
+}
+#resultado {
+    background-color: cornsilk;
+    width: 220px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    text-align: right;
+}
+
